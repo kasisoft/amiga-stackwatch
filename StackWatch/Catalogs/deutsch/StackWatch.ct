@@ -1,0 +1,138 @@
+## version $VER: StackWatch.catalog 1.2 (30-Jan-99)
+## codeset 0
+## language deutsch
+;
+; Catalog Translation file for "StackWatch 1.2"
+; (c) All copyrights reserved by Daniel Kasmeroglu (1999)
+;
+;*** Version 1.0 ***
+ERR_OS
+Sie benötigen mindestens Amiga OS 2.0 oder höher !\x00
+;
+;
+ERR_MEMORY
+Nicht genügend Speicher vorhanden !\x00
+;
+;
+ERR_LIBRARY
+Bibliothek \x22%s\x22 v%ld+ wird zum Laufen benötigt !\x00
+;
+;
+ERR_LIBWARN
+Bibliothek \x22%s\x22 v%ld+ könnte hilfreich sein !\x00
+;
+;
+GLO_SCREENTITLE
+StackWatch 1.2 (c) Daniel Kasmeroglu (1999)\x00
+;
+;
+GLO_TITLE
+StackWatch\x00
+;
+;
+GLO_INFOFORMAT
+Aktuell: %6ld%sGröße: %8ld\x0aMaximum: %6ld\x00
+;
+;
+GLO_SELFORMAT
+Beobachte: \x1bb%s\x1bn\x00
+;
+;
+GLO_ABOUT
+Über den Autoren\x00
+;
+;
+GLO_ANSWER
+_Ok\x00
+;
+;
+GLO_BODY
+\x1bc\x1bbStackWatch 1.2 (1999)\x1bn\x0a\x1bbGeschrieben von\x1bn\x0a\x1bbDaniel Kasmeroglu\x1bn\x0a\x1bd3Basiert auf StackMon von David Kinder\x00
+;
+;
+GLO_COMMNAME
+StackWatch\x00
+;
+;
+GLO_COMMTITLE
+StackWatch 1.2\x00
+;
+;
+GLO_COMMDESC
+Zeigt die Stack-Benutzung eines beliebigen Tasks an !\x00
+;
+;
+MAIN_ABOUT
+_Info\x00
+;
+;
+MAIN_REFRESH
+_Aktualisieren\x00
+;
+;
+MAIN_STOP
+_Stop\x00
+;
+;
+TTI_MAIN_GAUGE
+Zeigt an wieviel Stack momentan gebraucht wird !\x00
+;
+;
+TTI_MAIN_INFO
+Zeigt Informationen zum Stack !\x00
+;
+;
+TTI_MAIN_LIST
+Diese Liste beinhaltet alle Tasks !\x00
+;
+;
+TTI_MAIN_ABOUT
+Einige Infos zum Programm !\x00
+;
+;
+TTI_MAIN_REFRESH
+Aktualisiert die gesamte Task-Liste !\x00
+;
+;
+TTI_MAIN_STOP
+Beendet die Beobachtung eines Tasks !\x00
+;
+;
+TTI_MAIN_SELECTED
+Zeigt den aktuell ausgewählten Task an !\x00
+;
+;
+MSG_OVERFLOW
+Stack Überlauf !\x00
+;
+;
+MSG_TASKFINISHED
+Task wurde beendet !\x00
+;
+;
+MENU_HIDE
+Verbergen\x00
+;
+;
+MENU_ABOUT
+Info\x00
+;
+;
+MENU_QUIT
+Ende\x00
+;
+;
+MENU_HIDESHORT
+V\x00
+;
+;
+MENU_ABOUTSHORT
+I\x00
+;
+;
+MENU_QUITSHORT
+E\x00
+;
+;
+MENU_TITLE
+Projekt\x00

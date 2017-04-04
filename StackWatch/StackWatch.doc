@@ -1,0 +1,89 @@
+
+                                StackWatch v1.2
+                                ---------------
+
+                            © 1999 Daniel Kasmeroglu
+                            ------------------------
+
+                        Based on StackMon by David Kinder
+                        ---------------------------------
+
+
+Introduction
+------------
+
+  StackWatch is an utility which monitors the stack usage of a task. It
+  helps you to find out whether a task has got enough stack or not. You
+  can set the stacksize via "Icon/Information" for icons or via the command
+  "stack" in the shell. With this tool you can find out if a program fails
+  because it don't have enough stack.
+
+
+Features
+--------
+
+  - completely fontsensitive while using "bgui.library"
+  - is a commodity
+  - localised (english (builtin), catalan, espanol, francais, srpski )
+  - saves the maximum used in an entry (StackMon doesn't recognize this value)
+  - during a list refresh only new tasks will be replaced or closed tasks
+    will be removed
+
+
+Use
+---
+
+  StackWatch requires AmigaOS 2.04 or higher and the "bgui.library" v37.
+  The "locale.library" is also helpful. You can start it by a doubleclick
+  on its icon or running it from the shell. Another way is to put the program
+  in the WBStartup drawer so it will be started automatically.
+  If the window of StackWatch is opened you will get a list of all tasks.
+  Simply click on an entry and you will get all informations about it's
+  stack usage. Monitoring is only active when the window is active.
+  The program stops monitoring when the task was shutted down.
+  Also you will get a message "Stack Overflow" if a program uses more
+  stack than it has. You should notice that the system may crash in this
+  case.
+
+    CLI-USAGE:
+
+      CX_POPUP/S      : if set the window will be opened at start
+      CX_POPKEY       : set the hotkey (default: alt s)
+      PS=PUBSCREEN/K  : set the name of the pubscreen to run on (default: Workbench)
+
+    ToolTypes:
+
+      CX_POPUP=YES|NO : see above
+      CX_POPKEY=xxx   : see above
+      PUBSCREEN=xxx   : see above
+
+
+Compiler
+--------
+
+  StackWatch was written using Amiga E v3.3a. Note that E programs have their
+  own stack managememt system, so StackWatch is only useful with these programs
+  if you are using the included module "setstack()". You must call "setstack()"
+  at the begin of your program and the displayed data will be correct.
+  The sources of this program are included. The use of the call "setstack()"
+  is demonstrated in these sources (it's very, very, very, very simple ).
+
+
+Address
+-------
+
+  Send bug reports, comments, etc. to:
+
+  InterNet Email (prefered): raptor@cs.tu-berlin.de
+
+
+Greetings
+---------
+
+  Andrija Antonijeviá   - Serbian translation !
+  Llorenc Grau          - Catalan translation !
+  Damaso D. Estevez     - Spanish translation !
+  The guy who has done the french translation.
+  Sorry, but I've lost your name.
+
+

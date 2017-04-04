@@ -1,0 +1,138 @@
+## version $VER: StackWatch.catalog 1.2 (30-Jan-99)
+## codeset 0
+## language srpski
+## chunk AUTH Andrija Antonijevi·
+## chunk ANNO Preveo Andrija Antonijevi·, proverio Ljubomir Jankovi·
+;
+ERR_OS
+Potreban Vam je bar AmigaOS 2.0 ili noviji!\x00
+; You need at least Amiga OS 2.0 or higher !\x00
+;
+ERR_MEMORY
+Nema dovoljno memorije!\x00
+; Not enough memory available !\x00
+;
+ERR_LIBRARY
+Ne mogu da otvorim \x22%s\x22 v%ld+!\x00
+; Library \x22%s\x22 v%ld+ is needed to run !\x00
+;
+ERR_LIBWARN
+Biblioteka \x22%s\x22 v%ld+ je mogla da se upotrebi!\x00
+; Library \x22%s\x22 v%ld+ could be used !\x00
+;
+GLO_SCREENTITLE
+StackWatch 1.2 (c) Daniel Kasmeroglu (1999)\x00
+; StackWatch 1.2 (c) Daniel Kasmeroglu (1999)\x00
+;
+GLO_TITLE
+StackWatch\x00
+; StackWatch\x00
+;
+GLO_INFOFORMAT
+Trenutno: %6ld%sStek: %8ld\x0aMaksimalno: %6ld\x00
+; Current: %6ld%sStack: %8ld\x0aLargest: %6ld\x00
+;
+GLO_SELFORMAT
+Nadgledam: \x1bb%s\x1bn\x00
+; Monitoring: \x1bb%s\x1bn\x00
+;
+GLO_ABOUT
+O autoru\x00
+; About the author\x00
+;
+GLO_ANSWER
+_OK\x00
+; _Ok\x00
+;
+GLO_BODY
+\x1bc\x1bbStackWatch 1.2 (1999)\x1bn\x0a\x1bbNapisao\x1bn\x0a\x1buDaniel Kasmeroglu\x1bn\x0a\x1bd3Zasnovano na StackMon-u Dejvida Kindera\x00
+; \x1bc\x1bbStackWatch 1.2 (1999)\x1bn\x0a\x1bbWritten by\x1bn\x0a\x1bDaniel Kasmeroglu\x1bn\x0a\x1bd3Based on StackMon by David Kinder\x00
+;
+GLO_COMMNAME
+StackWatch\x00
+; StackWatch\x00
+;
+GLO_COMMTITLE
+StackWatch 1.2\x00
+; StackWatch 1.2\x00
+;
+GLO_COMMDESC
+Nadgleda upotrebu steka taska\x00
+; Monitors stack usage of a task\x00
+;
+MAIN_ABOUT
+_O\x00
+; _About\x00
+;
+MAIN_REFRESH
+Os_ve‰i\x00
+; _Refresh\x00
+;
+MAIN_STOP
+_Zaustavi\x00
+; _Stop\x00
+;
+TTI_MAIN_GAUGE
+Ovo prikazuje koliko je steka trenutno iskori„·eno.\x00
+; Shows how much stack is currently used !\x00
+;
+TTI_MAIN_INFO
+Neki podaci koji Vam mogu zatrebati.\x00
+; Some data you can need !\x00
+;
+TTI_MAIN_LIST
+Ova lista sadr‰i sve taskove.\x00
+; This list contains all tasks !\x00
+;
+TTI_MAIN_ABOUT
+Neki podaci o ovom programu.\x00
+; Some infos about this app !\x00
+;
+TTI_MAIN_REFRESH
+Osve‰ava celu listu.\x00
+; Refreshs the whole list !\x00
+;
+TTI_MAIN_STOP
+Zaustavlja nadgledanje taska.\x00
+; Stops monitoring of a task !\x00
+;
+TTI_MAIN_SELECTED
+Prikazuje trenutno izabrani task.\x00
+; Shows the current selected task !\x00
+;
+MSG_OVERFLOW
+Prekora‡enje steka!\x00
+; Stack overflow !\x00
+;
+MSG_TASKFINISHED
+Task je zavr„en!\x00
+; Task has finished !\x00
+;
+MENU_HIDE
+Sakrij se\x00
+; Hide\x00
+;
+MENU_ABOUT
+O\x00
+; About\x00
+;
+MENU_QUIT
+Iza‚i\x00
+; Quit\x00
+;
+MENU_HIDESHORT
+H\x00
+; H\x00
+;
+MENU_ABOUTSHORT
+?\x00
+; A\x00
+;
+MENU_QUITSHORT
+Q\x00
+; Q\x00
+;
+MENU_TITLE
+Projekat\x00
+; Project\x00
+;

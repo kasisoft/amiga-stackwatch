@@ -1,0 +1,5 @@
+
+  ShowStackSize is a little CLI-command I've written to easily find out how
+  much stack an E program is using. This tool needs only one argument, the
+  filename of the E program. That's it.
+

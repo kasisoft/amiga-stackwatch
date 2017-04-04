@@ -1,0 +1,143 @@
+;
+; StackWatch.catalog
+;
+## version $VER: StackWatch.catalog 1.2 (30-Jan-99) by Dámaso D. Estévez <amidde@arrakis.es>
+## codeset 0
+## language español
+;
+ERR_OS
+¡Se requiere al menos S.O. 2.0 o superior!
+;You need at least Amiga OS 2.0 or higher !\x00
+;
+ERR_MEMORY
+¡Memoria libre insuficiente!
+;Not enough memory available !\x00
+;
+ERR_LIBRARY
+¡Se necesita la biblioteca \x22%s\x22 v%ld+!
+;Library \x22%s\x22 v%ld+ is needed to run !\x00
+;
+ERR_LIBWARN
+¡Se podría usar la biblioteca \x22%s\x22 v%ld+!
+;Library \x22%s\x22 v%ld+ could be used !\x00
+;
+GLO_SCREENTITLE
+StackWatch 1.2 (c) Daniel Kasmeroglu (1999)
+;StackWatch 1.2 (c) Daniel Kasmeroglu (1999)\x00
+;
+GLO_TITLE
+StackWatch
+;StackWatch\x00
+;
+GLO_INFOFORMAT
+Actual: %6ld%sPila: %8ld\n\
+Máximo: %6ld
+;Current: %6ld%sStack: %8ld\x0aLargest: %6ld\x00
+;
+GLO_SELFORMAT
+Monitorizando: \x1bb%s\x1bn
+;Monitoring: \x1bb%s\x1bn\x00
+;
+GLO_ABOUT
+Sobre el autor
+;About the author\x00
+;
+GLO_ANSWER
+_Aceptar
+;_Ok\x00
+;
+GLO_BODY
+\x1bc\x1bbStackWatch 1.2 (1999)\x1bn\n\
+\x1bbEscrito por\x1bn\n\
+\x1bbDaniel Kasmeroglu\x1bn\n\
+\x1bd3Basado en StackMon, escrito por David Kinder
+;\x1bc\x1bbStackWatch 1.2 (1999)\x1bn\x0a\x1bbWritten by\x1bn\x0a\x1bDaniel Kasmeroglu\x1bn\x0a\x1bd3Based on StackMon by David Kinder\x00
+;
+GLO_COMMNAME
+StackWatch
+;StackWatch\x00
+;
+GLO_COMMTITLE
+StackWatch 1.2
+;StackWatch 1.2\x00
+;
+GLO_COMMDESC
+Monitoriza el uso de la pila por una tarea
+;Monitors stack usage of a task\x00
+;
+MAIN_ABOUT
+_Sobre
+;_About\x00
+;
+MAIN_REFRESH
+_Refrescar
+;_Refresh\x00
+;
+MAIN_STOP
+_Detener
+;_Stop\x00
+;
+TTI_MAIN_GAUGE
+Muestra la cantidad de pila que está en uso actualmente
+;Shows how much stack is currently used !\x00
+;
+TTI_MAIN_INFO
+Algunos datos que puede necesitar
+;Some data you can need !\x00
+;
+TTI_MAIN_LIST
+Esta lista contiene todas las tareas
+;This list contains all tasks !\x00
+;
+TTI_MAIN_ABOUT
+Alguna información sobre esta aplicación
+;Some infos about this app !\x00
+;
+TTI_MAIN_REFRESH
+Refrescar la lista completa
+;Refreshs the whole list !\x00
+;
+TTI_MAIN_STOP
+Detener la monitorización de una tarea
+;Stops monitoring of a task !\x00
+;
+TTI_MAIN_SELECTED
+Mostrar la tarea actualmente seleccionada
+;Shows the current selected task !\x00
+;
+MSG_OVERFLOW
+¡Pila desbordada!
+;Stack overflow !\x00
+;
+MSG_TASKFINISHED
+¡La tarea ha finalizado!
+;Task has finished !\x00
+;
+MENU_HIDE
+Ocultar
+;Hide\x00
+;
+MENU_ABOUT
+Sobre
+;About\x00
+;
+MENU_QUIT
+Salir
+;Quit\x00
+;
+MENU_HIDESHORT
+O
+;H\x00
+;
+MENU_ABOUTSHORT
+?
+;A\x00
+;
+MENU_QUITSHORT
+S
+;Q\x00
+;
+MENU_TITLE
+Proyecto
+;Project\x00
+;

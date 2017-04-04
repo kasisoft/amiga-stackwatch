@@ -1,0 +1,130 @@
+ERR_OS (1//)
+You need at least Amiga OS 2.0 or higher !\x00
+;
+;
+ERR_MEMORY (//)
+Not enough memory available !\x00
+;
+;
+ERR_LIBRARY (//)
+Library \x22%s\x22 v%ld+ is needed to run !\x00
+;
+;
+ERR_LIBWARN (//)
+Library \x22%s\x22 v%ld+ could be used !\x00
+;
+;
+GLO_SCREENTITLE (10//)
+StackWatch 1.2 (c) Daniel Kasmeroglu (1999)\x00
+;
+;
+GLO_TITLE (//)
+StackWatch\x00
+;
+;
+GLO_INFOFORMAT (//)
+Current: %6ld%sStack: %8ld\x0aLargest: %6ld\x00
+;
+;
+GLO_SELFORMAT (//)
+Monitoring: \x1bb%s\x1bn\x00
+;
+;
+GLO_ABOUT (//)
+About the author\x00
+;
+;
+GLO_ANSWER (//)
+_Ok\x00
+;
+;
+GLO_BODY (//)
+\x1bc\x1bbStackWatch 1.2 (1999)\x1bn\x0a\x1bbWritten by\x1bn\x0a\x1bDaniel Kasmeroglu\x1bn\x0a\x1bd3Based on StackMon by David Kinder\x00
+;
+;
+GLO_COMMNAME (//)
+StackWatch\x00
+;
+;
+GLO_COMMTITLE (//)
+StackWatch 1.2\x00
+;
+;
+GLO_COMMDESC (//)
+Monitors stack usage of a task\x00
+;
+;
+MAIN_ABOUT (30//)
+_About\x00
+;
+;
+MAIN_REFRESH (//)
+_Refresh\x00
+;
+;
+MAIN_STOP (//)
+_Stop\x00
+;
+;
+TTI_MAIN_GAUGE (40//)
+Shows how much stack is currently used !\x00
+;
+;
+TTI_MAIN_INFO (//)
+Some data you can need !\x00
+;
+;
+TTI_MAIN_LIST (//)
+This list contains all tasks !\x00
+;
+;
+TTI_MAIN_ABOUT (//)
+Some infos about this app !\x00
+;
+;
+TTI_MAIN_REFRESH (//)
+Refreshs the whole list !\x00
+;
+;
+TTI_MAIN_STOP (//)
+Stops monitoring of a task !\x00
+;
+;
+TTI_MAIN_SELECTED (//)
+Shows the current selected task !\x00
+;
+;
+MSG_OVERFLOW (50//)
+Stack overflow !\x00
+;
+;
+MSG_TASKFINISHED (//)
+Task has finished !\x00
+;
+;
+MENU_HIDE (60//)
+Hide\x00
+;
+;
+MENU_ABOUT (//)
+About\x00
+;
+;
+MENU_QUIT (//)
+Quit\x00
+;
+;
+MENU_HIDESHORT (//)
+H\x00
+;
+;
+MENU_ABOUTSHORT (//)
+A\x00
+;
+;
+MENU_QUITSHORT (//)
+Q\x00
+;
+;
+MENU_TITLE (//)
+Project\x00
